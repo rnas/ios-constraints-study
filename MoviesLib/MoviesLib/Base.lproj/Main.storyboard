@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,11 +19,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logan-wide" translatesAutoresizingMaskIntoConstraints="NO" id="WqK-0L-c24">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="230"/>
+                                <rect key="frame" x="0.0" y="0.0" width="333.5" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="230" id="V0z-JE-bWo">
                                         <variation key="heightClass=compact" constant="180"/>
@@ -32,14 +32,14 @@
                                         <variation key="heightClass=compact" constant="180"/>
                                     </constraint>
                                 </constraints>
-                                <variation key="heightClass=compact">
+                                <variation key="heightClass=compact" image="logan-poster">
                                     <mask key="constraints">
                                         <exclude reference="V0z-JE-bWo"/>
                                     </mask>
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qa4-sy-pux">
-                                <rect key="frame" x="161" y="89" width="53" height="53"/>
+                                <rect key="frame" x="141" y="64" width="53" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="C45-uR-abI"/>
                                     <constraint firstAttribute="width" constant="53" id="RMW-3z-OPw"/>
@@ -50,19 +50,19 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="ZPq-iG-EEf">
-                                <rect key="frame" x="0.0" y="164" width="375" height="66"/>
+                                <rect key="frame" x="0.0" y="114" width="333.5" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="kyx-Tf-Vju"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mad Max: Estrada da Fúria" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8At-yr-658">
-                                <rect key="frame" x="10" y="240" width="365" height="33.5"/>
+                                <rect key="frame" x="10" y="190" width="323.5" height="33.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ação | Drama | Sci-Fi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1h-jB-QLH">
-                                <rect key="frame" x="10" y="277.5" width="267" height="21"/>
+                                <rect key="frame" x="10" y="227.5" width="225.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="h4F-rd-4Qk"/>
                                 </constraints>
@@ -71,7 +71,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⭐️ 8.7/10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qU8-yH-LT9">
-                                <rect key="frame" x="10" y="308.5" width="94" height="21"/>
+                                <rect key="frame" x="10" y="258.5" width="94" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="1FM-Kn-uyE"/>
                                     <constraint firstAttribute="width" constant="94" id="TFA-ap-FJM"/>
@@ -81,39 +81,61 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QxK-ZM-7IG">
-                                <rect key="frame" x="0.0" y="339.5" width="375" height="327.5"/>
+                                <rect key="frame" x="333.5" y="0.0" width="333.5" height="375"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sinopse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqr-Vo-k6i">
-                                        <rect key="frame" x="10" y="10" width="355" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="zcj-86-RFw"/>
-                                        </constraints>
+                                        <rect key="frame" x="10" y="10" width="313.5" height="26.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        </variation>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mMu-8f-mET">
-                                        <rect key="frame" x="10" y="31" width="355" height="296.5"/>
+                                        <rect key="frame" x="10" y="36.5" width="313.5" height="338.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">In the near future, a weary Logan cares for an ailing Professor X in a hide out on the Mexican border. But Logan's attempts to hide from the world and his legacy are up-ended when a young mutant arrives, being pursued by dark forces.</string>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        </variation>
                                     </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.google.com.br" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNc-8H-xXc">
+                                        <rect key="frame" x="10" y="348" width="313.5" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="SNc-8H-xXc" secondAttribute="trailing" constant="10" id="0cc-KW-eFh"/>
                                     <constraint firstItem="mMu-8f-mET" firstAttribute="top" secondItem="Mqr-Vo-k6i" secondAttribute="bottom" id="E8A-K9-1qF"/>
                                     <constraint firstItem="Mqr-Vo-k6i" firstAttribute="leading" secondItem="QxK-ZM-7IG" secondAttribute="leading" constant="10" id="WmZ-jq-Eov"/>
                                     <constraint firstAttribute="bottom" secondItem="mMu-8f-mET" secondAttribute="bottom" id="Yro-5p-LqU"/>
                                     <constraint firstItem="Mqr-Vo-k6i" firstAttribute="top" secondItem="QxK-ZM-7IG" secondAttribute="top" constant="10" id="bXR-gR-UED"/>
+                                    <constraint firstItem="SNc-8H-xXc" firstAttribute="leading" secondItem="QxK-ZM-7IG" secondAttribute="leading" constant="10" id="chM-63-Bzn"/>
+                                    <constraint firstItem="SNc-8H-xXc" firstAttribute="bottom" secondItem="mMu-8f-mET" secondAttribute="bottom" constant="-10" id="dhQ-st-EIi"/>
                                     <constraint firstAttribute="trailing" secondItem="Mqr-Vo-k6i" secondAttribute="trailing" constant="10" id="rh4-uv-eeK"/>
                                     <constraint firstAttribute="trailing" secondItem="mMu-8f-mET" secondAttribute="trailing" constant="10" id="uGr-FC-HVz"/>
                                     <constraint firstItem="mMu-8f-mET" firstAttribute="leading" secondItem="QxK-ZM-7IG" secondAttribute="leading" constant="10" id="v37-Ow-Gg2"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="SNc-8H-xXc"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="SNc-8H-xXc"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 2h 17min" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jt4-oH-Tdt">
-                                <rect key="frame" x="285" y="277.5" width="80" height="21"/>
+                                <rect key="frame" x="243.5" y="227.5" width="80" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="BJ8-Yz-5v0"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="nyh-Dr-7X8"/>
@@ -187,11 +209,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1149.2753623188407" y="-272.28260869565219"/>
+            <point key="canvasLocation" x="1149.1754122938532" y="-272.80000000000001"/>
         </scene>
     </scenes>
     <resources>
         <image name="gradient" width="320" height="66"/>
+        <image name="logan-poster" width="1200" height="1773"/>
         <image name="logan-wide" width="800" height="500"/>
         <image name="play" width="53" height="53"/>
     </resources>
